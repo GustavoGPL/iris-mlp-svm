@@ -1,6 +1,6 @@
 # Comparação de Classificadores: MLP (Rede Neural) vs. SVM (Support Vector Machine) no Dataset Iris
 
-Este repositório contém um notebook Jupyter que implementa e compara o desempenho de classificadores Multi-Layer Perceptron (MLP) e Support Vector Machine (SVM) para a tarefa de classificação de espécies de flores no clássico dataset Iris.
+Este repositório contém um notebook, idealmente executado no **Google Colab**, que implementa e compara o desempenho de classificadores Multi-Layer Perceptron (MLP) e Support Vector Machine (SVM) para a tarefa de classificação de espécies de flores no clássico dataset Iris.
 
 ## 📊 Dataset
 
@@ -45,7 +45,7 @@ Além disso, são comparados o **tempo de inferência** (em segundos por amostra
 
 ## 💻 Requisitos
 
-Para executar o notebook, você precisará das seguintes bibliotecas Python, listadas no arquivo `requirements.txt`:
+As bibliotecas Python necessárias estão listadas no arquivo `requirements.txt`:
 
 * `numpy`
 * `pandas`
@@ -53,7 +53,7 @@ Para executar o notebook, você precisará das seguintes bibliotecas Python, lis
 * `seaborn`
 * `scikit-learn`
 
-Você pode instalar todas as dependências usando `pip`:
+Se você optar por rodar localmente (fora do Colab), pode instalá-las usando:
 
 ```bash
 pip install -r requirements.txt
